@@ -8,8 +8,9 @@ const products: Product[] = [
         imagen: "/img/auriculares.png",
         disponibilidad: "Llega mañana",
         stock: true,
-        caracteristicas: ["Característica 1", "Característica 2"], 
-        descripcion: "Auriculares de alta calidad con cancelación de ruido."
+        caracteristicas: ["Característica 1", "Característica 2"],
+        descripcion: "Auriculares de alta calidad con cancelación de ruido.",
+        quantity: 0
     },
     {
         id: 2,
@@ -18,8 +19,9 @@ const products: Product[] = [
         imagen: "/img/auriculares.png",
         disponibilidad: "Llega hoy",
         stock: true,
-        caracteristicas: ["Característica 3", "Característica 4"], 
-        descripcion: "Auriculares ergonómicos con sonido envolvente."
+        caracteristicas: ["Característica 3", "Característica 4"],
+        descripcion: "Auriculares ergonómicos con sonido envolvente.",
+        quantity: 0
     },
     {
         id: 3,
@@ -28,8 +30,9 @@ const products: Product[] = [
         imagen: "/img/auriculares.png",
         disponibilidad: "Llega mañana",
         stock: true,
-        caracteristicas: ["Característica 5", "Característica 6"], 
-        descripcion: "Auriculares con tecnología Bluetooth 5.0."
+        caracteristicas: ["Característica 5", "Característica 6"],
+        descripcion: "Auriculares con tecnología Bluetooth 5.0.",
+        quantity: 0
     },
     {
         id: 4,
@@ -39,7 +42,8 @@ const products: Product[] = [
         disponibilidad: "Llega hoy",
         stock: true,
         caracteristicas: ["Característica 3", "Característica 4"],
-        descripcion: "Auriculares ergonómicos con sonido envolvente."
+        descripcion: "Auriculares ergonómicos con sonido envolvente.",
+        quantity: 0
     },
     {
         id: 5,
@@ -49,7 +53,8 @@ const products: Product[] = [
         disponibilidad: "Llega mañana",
         stock: true,
         caracteristicas: ["Característica 5", "Característica 6"],
-        descripcion: "Auriculares con tecnología Bluetooth 5.0."
+        descripcion: "Auriculares con tecnología Bluetooth 5.0.",
+        quantity: 0
     },
     {
         id: 6,
@@ -59,7 +64,8 @@ const products: Product[] = [
         disponibilidad: "Llega hoy",
         stock: true,
         caracteristicas: ["Característica 3", "Característica 4"],
-        descripcion: "Auriculares ergonómicos con sonido envolvente."
+        descripcion: "Auriculares ergonómicos con sonido envolvente.",
+        quantity: 0
     },
     {
         id: 7,
@@ -69,7 +75,8 @@ const products: Product[] = [
         disponibilidad: "Llega mañana",
         stock: true,
         caracteristicas: ["Característica 5", "Característica 6"],
-        descripcion: "Auriculares con tecnología Bluetooth 5.0."
+        descripcion: "Auriculares con tecnología Bluetooth 5.0.",
+        quantity: 0
     },
     {
         id: 8,
@@ -79,7 +86,8 @@ const products: Product[] = [
         disponibilidad: "Llega hoy",
         stock: true,
         caracteristicas: ["Característica 3", "Característica 4"],
-        descripcion: "Auriculares ergonómicos con sonido envolvente."
+        descripcion: "Auriculares ergonómicos con sonido envolvente.",
+        quantity: 0
     },
     {
         id: 9,
@@ -89,7 +97,8 @@ const products: Product[] = [
         disponibilidad: "Llega mañana",
         stock: true,
         caracteristicas: ["Característica 5", "Característica 6"],
-        descripcion: "Auriculares con tecnología Bluetooth 5.0."
+        descripcion: "Auriculares con tecnología Bluetooth 5.0.",
+        quantity: 0
     },
     {
         id: 10,
@@ -99,7 +108,8 @@ const products: Product[] = [
         disponibilidad: "Llega hoy",
         stock: true,
         caracteristicas: ["Característica 3", "Característica 4"],
-        descripcion: "Auriculares ergonómicos con sonido envolvente."
+        descripcion: "Auriculares ergonómicos con sonido envolvente.",
+        quantity: 0
     },
     {
         id: 11,
@@ -109,7 +119,8 @@ const products: Product[] = [
         disponibilidad: "Llega mañana",
         stock: true,
         caracteristicas: ["Característica 5", "Característica 6"],
-        descripcion: "Auriculares con tecnología Bluetooth 5.0."
+        descripcion: "Auriculares con tecnología Bluetooth 5.0.",
+        quantity: 0
     }
 ];
 

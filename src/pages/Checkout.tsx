@@ -17,7 +17,7 @@ const Checkout = () => {
   const { product, quantity }: LocationState = location.state || { product: null, quantity: 1 };
 
   if (!product) {
-    return <h2 className="text-center text-xl font-semibold">No hay productos en el carrito</h2>;
+    return <h2 className="text-center text-xl font-semibold">No hay productos en el carrito.</h2>;
   }
 
   return (

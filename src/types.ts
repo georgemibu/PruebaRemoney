@@ -7,4 +7,5 @@ export interface Product {
     stock: boolean;
     caracteristicas: string[];
     descripcion: string;
- }
+    quantity: number; 
+}
