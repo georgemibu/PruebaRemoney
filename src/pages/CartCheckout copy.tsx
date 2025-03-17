@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const CartCheckout: React.FC = () => {
   const { cart, removeFromCart } = useCart();
-
+  
 
   // Función para calcular el total del carrito
   const calculateTotal = () => {
@@ -79,7 +79,10 @@ const CartCheckout: React.FC = () => {
 
         {/* Botón para realizar el pago */}
         <div className="mt-6 text-center">
-          <Link to="/pago-checkout" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition">
+          <Link
+            to="/PagoCheckout" //ACA PONER LA RUTA DE PAGOS
+            className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
+          >
             Realizar pago
           </Link>
         </div>

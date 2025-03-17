@@ -7,6 +7,8 @@ import products from "./data/products";
 import { Product } from "./types";
 import Navbar from "./components/NavBar";
 import { CartProvider } from "./context/CartContext";
+import PagoCheckout from "./pages/PagoCheckout";
+
 
 const App: React.FC = () => {
   return (
@@ -18,6 +20,7 @@ const App: React.FC = () => {
             <Route path="/" element={<ProductList products={products as Product[]} />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/cartcheckout" element={<CartCheckout />} />
+            <Route path="/pago-checkout" element={<PagoCheckout />} />
             </Routes>
         </div>
       </CartProvider>

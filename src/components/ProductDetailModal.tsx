@@ -23,7 +23,7 @@ const ProductDetailModal = ({ product, onClose }: ProductDetailModalProps) => {
 
   const handleAddToCart = () => {
     addToCart(product, quantity); // Agregar al carrito
-    onClose(); // Cerrar el modal después de agregar
+    onClose(); // cierra el modal después de agregar
   };
 
   return (

@@ -1,5 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import PaymentMethods from "../components/PaymentMethods";
 
 interface Product {
   nombre: string;
@@ -67,7 +68,7 @@ const Checkout = () => {
       </div>
 
       {/* Resumen del pedido */}
-      <div className="w-full md:w-1/3 bg-white p-6 rounded-lg shadow-md">
+      <div className="w-full md:w-2/3 bg-white p-6 rounded-lg shadow-md"> 
         <h3 className="text-xl font-semibold mb-4">Resumen de Pedido</h3>
         <p><strong>Producto:</strong> {product.nombre}</p>
         <p><strong>Precio:</strong> ${product.precio}</p>
@@ -77,12 +78,12 @@ const Checkout = () => {
         </p>
 
         {/* Botón Confirmar Compra */}
-        <button
-          type="submit"
-          className="mt-4 w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          Confirmar Compra
-        </button>
+        <div className="checkout-container">
+      {/* Otros componentes de checkout */}
+      <PaymentMethods />
+      
+
+    </div>
       </div>
     </div>
   );
